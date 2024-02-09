@@ -6,6 +6,8 @@ public class OnlineOrderingSystem {
         orderItems.add(new Burger("Cheeseburger", 8.99, "Beef patty with cheese"));
         orderItems.add(new Pizza("Margherita", 12.99, "Pizza with tomato and mozzarella"));
         orderItems.add(new Salad("Caesar Salad", 6.99, "Fresh lettuce with Caesar dressing"));
+        orderItems.add(new Dessert("Chocolate Cake", 4.99, "Rich, dense chocolate cake"));
+
 
         for (MenuItem menuItem : orderItems) {
             System.out.println("Name: " + menuItem.getName());
